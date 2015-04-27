@@ -23,3 +23,4 @@ public class diceClass1 {
 	}
 }
 
+// Hi Jonathan...please look into Constructor, and I expect this class to return the randomnumber..

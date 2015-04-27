@@ -8,13 +8,18 @@ public class diceClass1 {
 		
 		String answer;
 		
-		System.out.print("Would you like to play the dice game?");
+		System.out.print("Would you like to play the dice game? ");
 		answer = Input.next();
 		
-		if ( answer.equalsIgnoreCase("No"))
-		{
+		if ( answer.equalsIgnoreCase("no"))
+			{
 			System.out.println( "Goodbye!");
-		}
-		
+			}
+		if ( answer.equalsIgnoreCase("yes"))
+			{
+			diceClass2 initialQuestion2 = new diceClass2(); //constructor part 2
+			initialQuestion2.displayMessage();
+			}
 	}
 }
+
